@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Shruti ♡ A Birthday Surprise</title>
+<style>
+:root{--ink:#59394e;--pink:#f4b8ce;--rose:#bd6289;--cream:#fffaf4;--lav:#e6dcfb;--gold:#f2c875}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:"Trebuchet MS",system-ui,sans-serif;background:radial-gradient(circle at 12% 20%,#f9dce7,transparent 35%),radial-gradient(circle at 85% 75%,#e6defa,transparent 35%),#fff8f2;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.2;background-image:radial-gradient(#b78f9d .7px,transparent .7px);background-size:8px 8px}
+nav{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 5%;background:#fffaf4e8;backdrop-filter:blur(10px);border-bottom:1px dashed #d6b3c1}.brand{font:italic 1.15rem Georgia,serif;color:#9b4f75}.navtools{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}.pill,.btn{border:1px solid #d7a4ba;color:#8c4568;background:#fff;border-radius:30px;padding:10px 15px;font-weight:bold;cursor:pointer}.btn{background:#a75c81;color:white;border:0;padding:13px 22px;box-shadow:4px 5px 0 #e8bfd0}.btn.secondary{background:#826ba8;box-shadow:4px 5px 0 #d8c9ee}.btn:disabled{opacity:.45;cursor:not-allowed}
+.page{display:none;min-height:calc(100vh - 62px);padding:42px 18px 32px;place-items:center;position:relative;overflow:hidden}.page.active{display:grid;animation:appear .5s ease}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.card{width:min(850px,100%);text-align:center;background:#fffaf3ed;border:1px solid #fff;box-shadow:0 18px 60px #80506d18;border-radius:20px;padding:clamp(24px,5vw,52px);position:relative}.tape{display:inline-block;background:#e8d9b8b5;padding:7px 20px;transform:rotate(-3deg);font-size:.75rem;letter-spacing:2px;text-transform:uppercase}
+h1{font:clamp(3.2rem,10vw,6.7rem)/.95 Georgia,serif;color:#9d5277;letter-spacing:-3px;margin:24px 0 16px}h1 em{display:block;color:#d66f99;font-weight:normal}h2{font:clamp(2rem,6vw,3.6rem) Georgia,serif;color:#9b5277;margin:12px 0 18px}.lead{max-width:580px;margin:0 auto 25px;line-height:1.8;color:#806878}.floating{position:absolute;font-size:clamp(1.5rem,4vw,3rem);animation:float 4s ease-in-out infinite}.f1{left:7%;top:9%}.f2{right:8%;top:17%;animation-delay:1s}.f3{left:11%;bottom:12%;animation-delay:.5s}.f4{right:10%;bottom:12%;animation-delay:1.5s}@keyframes float{50%{transform:translateY(-12px) rotate(9deg)}}
+.dots{display:flex;justify-content:center;gap:8px;margin:22px 0 0}.dot{height:8px;width:8px;border-radius:50%;background:#e4c8d5}.dot.on{background:#b65d84;width:23px;border-radius:9px}.controls{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:26px}.note{max-width:680px;margin:auto;line-height:1.95;background:repeating-linear-gradient(#fffdf8 0 34px,#f1e5eb 35px);padding:26px;border-radius:12px;text-align:left}.note p{margin:8px 0}.signature{font:italic 1.25rem Georgia,serif;color:#b65d84;text-align:right}
+.cake{font-size:clamp(5rem,17vw,9rem);filter:drop-shadow(0 8px 10px #d88bab35);margin:8px 0}.candles{font-size:clamp(2.3rem,8vw,4rem);letter-spacing:8px;min-height:65px}.flames{display:inline-block;animation:flicker .65s infinite alternate;transform-origin:center bottom}@keyframes flicker{from{transform:rotate(-4deg) scale(.95)}to{transform:rotate(4deg) scale(1.08)}}.wish{display:none;background:#fff0f6;border:1px dashed #d89ab6;padding:17px;border-radius:14px;margin:18px auto;max-width:570px;line-height:1.7}.wish.show{display:block;animation:appear .4s ease}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}.polaroid{background:white;padding:9px 9px 33px;box-shadow:0 7px 18px #4b344515;transform:rotate(-2deg);min-width:0}.polaroid:nth-child(2){transform:rotate(2deg);margin-top:13px}.polaroid:nth-child(3){transform:rotate(-1deg);margin-top:4px}.picture{aspect-ratio:4/5;background:linear-gradient(145deg,#f7dce6,#e5dcfa);display:flex;align-items:center;justify-content:center;overflow:hidden;color:#9b6685}.picture img{width:100%;height:100%;object-fit:cover}.caption{font:italic .9rem Georgia,serif;padding-top:8px;color:#876377}.upload{display:inline-block;padding:12px 18px;border:1px dashed #bc7898;border-radius:25px;background:#fffaf5;color:#8d4f70;font-weight:bold;cursor:pointer}.upload input{display:none}.small{font-size:.82rem;color:#9b8292;line-height:1.6}.heart{font-size:2rem;letter-spacing:8px;color:#d66f99}.confetti{position:fixed;top:-25px;z-index:50;pointer-events:none;animation:fall 3.4s linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(650deg);opacity:.1}}
+
+.cover-card{background:linear-gradient(145deg,#fff8fcf5,#fffaf0f5);border:2px solid #fff;box-shadow:0 18px 65px #b35d831f}
+.cover-ornaments{font-size:clamp(2.3rem,7vw,4.5rem);display:flex;justify-content:center;align-items:center;gap:clamp(8px,3vw,24px);margin:20px 0;flex-wrap:wrap}
+.cover-ornaments span{display:inline-block;animation:float 3.5s ease-in-out infinite}
+.cover-ornaments span:nth-child(2){animation-delay:.4s}.cover-ornaments span:nth-child(3){animation-delay:.8s}.cover-ornaments span:nth-child(4){animation-delay:1.2s}.cover-ornaments span:nth-child(5){animation-delay:1.6s}
+.cover-title{font-size:clamp(2.7rem,9vw,5.5rem);letter-spacing:-2px;line-height:1.02;margin:22px 0}
+.cover-title em{display:block;color:#d66f99;font-style:normal;font-weight:normal}
+.cover-sub{font:italic clamp(1rem,3vw,1.3rem) Georgia,serif;color:#a36a86;margin:0 auto 24px}
+
+@media(max-width:600px){nav{align-items:flex-start}.brand{font-size:.98rem}.pill{padding:9px 10px;font-size:.8rem}.gallery{gap:9px}.polaroid{padding:6px 6px 28px}.caption{font-size:.75rem}.page{padding:26px 12px}.card{padding:26px 17px}}
+</style>
+</head>
+<body>
+<nav><div class="brand">Shruti's little love note ♡</div><div class="navtools"><button class="pill" id="musicBtn">♫ Play my song</button></div></nav>
+<audio id="song" src="song.mp3" preload="metadata"></audio>
+
+<section class="page active" id="p0">
+  <span class="floating f1">🎈</span><span class="floating f2">🌷</span><span class="floating f3">🧸</span><span class="floating f4">💐</span>
+  <div class="card cover-card">
+    <span class="tape">a little birthday surprise</span>
+    <div class="cover-ornaments"><span>🧸</span><span>🌸</span><span>🎈</span><span>💐</span><span>🎀</span></div>
+    <h1 class="cover-title">Happy Birthday <em>Shruti</em></h1>
+    <p class="cover-sub">A tiny little world made just for you ♡</p>
+    <div class="controls"><button class="btn" onclick="go(1);sprinkle()">Aage badho ✨ →</button></div>
+    <p class="small">Tap to open your surprise 💗</p>
+  </div>
+</section>
+
+<section class="page" id="p1"><span class="floating f1">🌷</span><span class="floating f2">🎀</span><span class="floating f3">♡</span><span class="floating f4">✨</span><div class="card"><span class="tape">a tiny surprise for you</span><h1>Happy Birthday <em>Shruti!</em></h1><p class="lead">Today, the universe has one important job: make you smile. And my job is to remind you that you're loved… and to demand birthday cake. 🎂💗</p><div class="heart">♡ ✦ ♡</div><p class="lead">Four little pages. A whole lot of love. And only a tiny bit of embarrassing silly surprise energy.</p><div class="controls"><button class="btn" onclick="go(2)">Open your surprise 💌</button></div><div class="dots"><i class="dot on"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div></div></section>
+<section class="page" id="p2"><div class="card"><span class="tape">page two · from the heart</span><h2>Dear Birthday Girl ♡</h2><div class="note"><p><b>Happiest Birthday, Shruti!!</b> 🥹💗</p><p>You're one of my favourite humans: equal parts sweet, iconic, and certified drama department. Honestly, life would be so boring without your random talks and your legendary reactions. 😂</p><p>I hope this year brings you peaceful days, loud laughs, beautiful memories, kind people, and all the little things your heart has been wishing for.</p><p>Even when life gets messy, I hope you never forget how special you are. You deserve love that feels safe, bonds that feel like home, and happiness that stays longer than a weekend.</p><p>Okay, emotional paragraph over. Don't let it go to your head. You're still required to share snacks. 😌🍟</p><p class="signature">With lots of love & a little nonsense ♡</p></div><div class="controls"><button class="pill" onclick="go(1)">← Back</button><button class="btn" onclick="go(3)">There's cake?! 🎂</button></div><div class="dots"><i class="dot"></i><i class="dot on"></i><i class="dot"></i><i class="dot"></i></div></div></section>
+<section class="page" id="p3"><div class="card"><span class="tape">page three · make a wish</span><h2>One wish, just for you ✨</h2><p class="lead">Close your eyes for a second, make your biggest birthday wish, then tap the button to blow out your candles!</p><div class="candles" id="flames"><span class="flames">🕯️</span><span class="flames">🕯️</span><span class="flames">🕯️</span></div><div class="cake" id="cake">🎂</div><button class="btn" id="blowBtn" onclick="blowCandles()">💨 Blow out the candles!</button><div class="wish" id="wish"><h3>WISH SENT TO THE UNIVERSE! 💫</h3><p>May your dreams find their way to you, your heart stay full, and your year be sprinkled with magic. You deserve all of it. 💗</p><p><b>Now open your eyes… and save me a slice. 😂🍰</b></p></div><div class="controls"><button class="pill" onclick="go(2)">← Back</button><button class="btn secondary" onclick="go(4)">One last surprise 💖</button></div><div class="dots"><i class="dot"></i><i class="dot"></i><i class="dot on"></i><i class="dot"></i></div></div></section>
+<section class="page" id="p4"><div class="card"><span class="tape">page four · all about Shruti</span><h2>Shruti’s Photo Wall 📸</h2><p class="lead">A photo wall dedicated only to Shruti — her solo photos, her smile, her main-character energy. 🌷✨</p><div class="gallery" id="gallery">
+<div class="polaroid"><div class="picture"><img src="photos/shruti-1.jpg" alt="Shruti smiling outdoors"></div><div class="caption">pretty birthday girl ♡</div></div>
+<div class="polaroid"><div class="picture"><img src="photos/shruti-2.jpg" alt="Shruti in a blue outfit"></div><div class="caption">main character energy ✨</div></div>
+<div class="polaroid"><div class="picture"><img src="photos/shruti-3.jpg" alt="Shruti at a cafe"></div><div class="caption">born to be iconic 💗</div></div>
+</div><label class="upload">＋ Add photos from your device <input id="photoInput" type="file" accept="image/*" multiple></label><p class="small">Add only Shruti’s solo photos here. Shruti ki 3 photos pehle se lagi hain. Chahe toh neeche se aur solo photos select kar sakta hai.</p><div class="wish show"><b>A final little reminder 💌</b><br>You're loved more than this tiny website can fit. Happy birthday, Shruti. Stay soft, stay silly, stay wonderfully you. ♡</div><div class="controls"><button class="pill" onclick="go(3)">← Back</button><button class="btn" onclick="go(1);sprinkle()">Replay the surprise ↻</button></div><div class="dots"><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot on"></i></div></div></section>
+<script>
+let current=0, customLoaded=false, playing=false;
+const audio=document.getElementById('song');
+function go(n){document.getElementById('p'+current).classList.remove('active');current=n;document.getElementById('p'+current).classList.add('active');window.scrollTo({top:0,behavior:'smooth'});sprinkleSmall()}
+function sprinkleSmall(){const chars=['♡','✨','🌸'];for(let i=0;i<12;i++){const e=document.createElement('span');e.className='confetti';e.textContent=chars[Math.floor(Math.random()*chars.length)];e.style.left=Math.random()*100+'vw';e.style.animationDelay=Math.random()*.6+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),3800)}}
+function sprinkle(){const chars=['♡','💗','🌸','✨','🎀','🎉'];for(let i=0;i<40;i++){const e=document.createElement('span');e.className='confetti';e.textContent=chars[Math.floor(Math.random()*chars.length)];e.style.left=Math.random()*100+'vw';e.style.animationDelay=Math.random()*.7+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),3800)}}
+function blowCandles(){document.getElementById('flames').innerHTML='<span>💨</span><span>💨</span><span>💨</span>';document.getElementById('blowBtn').textContent='Wish made! 💖';document.getElementById('blowBtn').disabled=true;document.getElementById('wish').classList.add('show');sprinkle()}
+document.getElementById('musicBtn').onclick=async()=>{
+  const btn=document.getElementById('musicBtn');
+  if(!audio){alert('Audio player nahi mila. index.html check karo.');return;}
+  if(audio.paused){
+    try{
+      audio.currentTime = audio.currentTime || 0;
+      await audio.play();
+      btn.textContent='♫ Pause song';
+    }catch(err){
+      alert('Song play nahi ho paya. Check karo song.mp3 isi folder mein hai aur audio file supported hai.');
+    }
+  }else{
+    audio.pause();
+    btn.textContent='♫ Play my song';
+  }
+};
+document.getElementById('photoInput').addEventListener('change',e=>{const files=[...(e.target.files||[])].filter(f=>f.type.startsWith('image/'));if(!files.length)return;const gallery=document.getElementById('gallery');gallery.innerHTML='';files.slice(0,9).forEach((file,i)=>{const url=URL.createObjectURL(file);const card=document.createElement('div');card.className='polaroid';const pic=document.createElement('div');pic.className='picture';const img=document.createElement('img');img.src=url;img.alt='Shruti solo photo '+(i+1);pic.appendChild(img);const cap=document.createElement('div');cap.className='caption';cap.textContent=['Shruti being iconic ♡','her main-character era ✨','pretty & powerful 💗'][i%3];card.append(pic,cap);gallery.appendChild(card);});});
+</script></body></html>
